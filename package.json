@@ -1,6 +1,6 @@
 {
   "name": "angular-slick-carousel",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "main": "dist/angular-slick.js",
   "repository": {
     "type": "git",
@@ -8,8 +8,7 @@
   },
   "author": "DevMark",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "~3.9.0",
     "grunt": "*",

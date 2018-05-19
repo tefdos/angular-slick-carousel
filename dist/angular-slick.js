@@ -2,7 +2,7 @@
  * angular-slick-carousel
  * DevMark <hc.devmark@gmail.com>
  * https://github.com/devmark/angular-slick-carousel
- * Version: 3.1.7 - 2016-08-04T06:17:55.528Z
+ * Version: 3.1.7 - 2018-05-19T10:52:14.901Z
  * License: MIT
  */
 
@@ -19,7 +19,7 @@ angular
   .directive('slick', [
     '$timeout', 'slickCarouselConfig', function ($timeout, slickCarouselConfig) {
       var slickMethodList, slickEventList;
-      slickMethodList = ['slickGoTo', 'slickNext', 'slickPrev', 'slickPause', 'slickPlay', 'slickAdd', 'slickRemove', 'slickFilter', 'slickUnfilter', 'unslick'];
+      slickMethodList = ['slickGoTo', 'slickNext', 'slickPrev', 'slickPause', 'slickPlay', 'slickAdd', 'slickRemove', 'slickFilter', 'slickUnfilter', 'slickSetOption', 'slickGetOption', 'unslick'];
       slickEventList = ['afterChange', 'beforeChange', 'breakpoint', 'destroy', 'edge', 'init', 'reInit', 'setPosition', 'swipe', 'lazyLoaded', 'lazyLoadError'];
 
       return {
